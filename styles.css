@@ -1,0 +1,49 @@
+/* hier versuche ich die schriftart anzupassen */
+body {
+	font-family: 'Arial', sans-serif;
+}
+
+/* Einfaches Styling für die Navbar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #9acd32;
+    color: black;
+}
+		
+#myImage{
+	height: 250px;
+	display: block;
+}
+		
+.download-btn{
+	display: inline-block;
+	padding: 6px 12px;
+	margin: 0.5em 0;
+	background: grey;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.download-btn:hover{
+	background-color: #45a049;
+}
